@@ -71,21 +71,21 @@ const Navbar = () => {
       <div className="flex">
         <NavButton
           title="Cart"
-          customFunc={() => handleClick("cart")}
+          // customFunc={() => handleClick("cart")}
           color={currentColor}
           icon={<FiShoppingCart />}
         />
         <NavButton
           title="Chat"
           dotColor="#03C9D7"
-          customFunc={() => handleClick("chat")}
+          // customFunc={() => handleClick("chat")}
           color={currentColor}
           icon={<BsChatLeft />}
         />
         <NavButton
           title="Notifications"
           dotColor="#03C9D7"
-          customFunc={() => handleClick("notification")}
+          // customFunc={() => handleClick("notification")}
           color={currentColor}
           icon={<RiNotification3Line />}
         />
